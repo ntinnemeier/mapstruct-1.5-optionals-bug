@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6985154-514c-4407-82a4-19216db1e984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/mappers/MapStructConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/mappers/MapperWithOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/models/ASource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/models/ATarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/models/BSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bol/com/models/BTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics-with-immutables/src/main/java/com/bol/generics/MapStructConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics-with-immutables/src/main/java/com/bol/generics/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/null-check-on-source/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/null-check-on-source/src/main/java/com/bol/nullcheck/ASource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/null-check-on-source/src/main/java/com/bol/nullcheck/ATarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/null-check-on-source/src/main/java/com/bol/nullcheck/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unnecessary-mapping-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unnecessary-mapping-annotation/src/main/java/com/bol/mapping/ASource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unnecessary-mapping-annotation/src/main/java/com/bol/mapping/ATarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unnecessary-mapping-annotation/src/main/java/com/bol/mapping/MapStructConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unnecessary-mapping-annotation/src/main/java/com/bol/mapping/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generics-with-immutables/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/mappers/MapStructConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/null-check-on-source/src/main/java/com/bol/nullcheck/MapStructConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/mappers/MapperWithOptional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/models/ASource.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics-with-immutables/src/main/java/com/bol/generics/ASource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/models/ATarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics-with-immutables/src/main/java/com/bol/generics/ATarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/models/BSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics-with-immutables/src/main/java/com/bol/generics/BSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bol/com/models/BTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/generics-with-immutables/src/main/java/com/bol/generics/BTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ntinnemeier/Development/mapstruct-upgrade-1.5/src/main/java/bol/com/models",
+    "last_opened_file_path": "/Users/ntinnemeier/Development/mapstruct-upgrade-1.5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,9 +74,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/bol/com/models" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generics" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bol" />
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bol.com.bugs.nullcheck" />
       <recent name="bol.com.models" />
     </key>
   </component>
@@ -101,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676380925838</updated>
-      <workItem from="1676380926953" duration="4609000" />
+      <workItem from="1676380926953" duration="11157000" />
     </task>
     <servers />
   </component>

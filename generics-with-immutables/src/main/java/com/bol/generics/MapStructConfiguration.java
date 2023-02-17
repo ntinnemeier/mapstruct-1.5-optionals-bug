@@ -1,4 +1,4 @@
-package bol.com.mappers;
+package com.bol.generics;
 
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.MapperConfig;
