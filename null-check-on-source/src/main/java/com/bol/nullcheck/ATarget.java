@@ -8,13 +8,13 @@ public class ATarget {
     public String getS() {
         return s;
     }
-    private final Integer i;
+    private final Double i;
 
-    public Integer getI() {
+    public Double getI() {
         return i;
     }
 
-    public ATarget(String s, Integer i) {
+    public ATarget(String s, Double i) {
         this.s = s;
         this.i = i;
     }
